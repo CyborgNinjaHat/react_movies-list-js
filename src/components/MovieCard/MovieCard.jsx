@@ -1,3 +1,5 @@
+import './MovieCard.scss';
+
 export const MovieCard = ({ movie }) => {
   const { title, description, imgUrl, imdbUrl } = movie;
 
